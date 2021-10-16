@@ -1,5 +1,5 @@
 import test from 'ava';
 
-test('nullisnull?testscominglater', (t) => {
+test('null', (t) => {
   t.is(null, null);
 });
