@@ -1,6 +1,6 @@
 {
   "name": "printful-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "printful api wrapper for typescript.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -79,18 +79,18 @@
     "LICENSE",
     "README.md"
   ],
-	"ava": {
-		"extensions": {
-			"ts": "module"
-		},
-		"nodeArguments": [
-			"--loader=ts-node/esm",
-			"--experimental-specifier-resolution=node"
-		],
-		"nonSemVerExperiments": {
-			"configurableModuleFormat": true
-		}
-	},
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm",
+      "--experimental-specifier-resolution=node"
+    ],
+    "nonSemVerExperiments": {
+      "configurableModuleFormat": true
+    }
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
